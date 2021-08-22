@@ -1,8 +1,11 @@
 Steps:
 
-Install Behave 
+Install Behave
+
 Install Professional Edition of PyCharm for BDD Plugins Support
+
 intall allure behave 
+
 Download ans set allure coommn line tools -https://github.com/allure-framework/allure2/releases
 
 Genearting report :

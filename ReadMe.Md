@@ -29,12 +29,12 @@ allure serve C:\Users\ShankarFiles\Automation\Python\BehaveAPIAutomation\AllureR
 3. Integrated with Allure report
 
 **Future implementations:**
-Poetry implementation
-Soft assertions
-Integration with CSV/Excel
-Logging customized messages
-Request payload : csv/excel dynamically with positive negative combinations
-Response validations : filed by filed or json to json
-Schema validation :  filed by filed or json to json
+1. Poetry implementation 
+2. Soft assertions 
+3. Integration with CSV/Excel
+4. Logging customized messages
+5. Request payload : csv/excel dynamically with positive negative combinations
+6. Response validations : filed by filed or json to json
+7. Schema validation :  filed by filed or json to json
 
 

@@ -29,7 +29,7 @@ allure serve C:\Users\ShankarFiles\Automation\Python\BehaveAPIAutomation\AllureR
 3. Integrated with Allure report
 
 **Future implementations:**
-Poetry implementation 
+Poetry implementation
 Soft assertions
 Integration with CSV/Excel
 Logging customized messages

@@ -1,12 +1,55 @@
-**Steps:**
+**Python 3 strongly recommends virtual environment.**
 
-Install Behave
+To create a python virtual env using venv (we can also use pyenv/virtual env/virtual env wrapper/pipenv)
 
-Install Professional Edition of PyCharm for BDD Plugins Support
+#1 : To create requirements file by pulling the packages installed in the environment  whh can be used to install packages in the newly created virtual environment. 
 
-intall allure behave 
+pip freeze > requirements.txt
 
-Download ans set allure coommn line tools -https://github.com/allure-framework/allure2/releases
+Example :
+C:\Users\ShankarFiles\Automation\Python\BehaveAPIAutomation>pip freeze > requirements.txt
+
+#2 : Create a virtual environment using venv
+
+python -m venv virtual_env 
+
+Example :
+C:\Users\ShankarFiles\Automation\Python\BehaveAPIAutomation>python -m venv virtual_env
+
+#3 Activate virtual environment
+
+C:\Users\ShankarFiles\Automation\Python\BehaveAPIAutomation>virtual_env\Scripts\activate
+
+#4 Verify the packages installed in  newly created virtual environment  
+
+pip list
+
+Example :
+
+(virtual_env) C:\Users\ShankarFiles\Automation\Python\BehaveAPIAutomation>pip list
+
+(virtual_env) C:\Users\ShankarFiles\Automation\Python\BehaveAPIAutomation>pip list
+Package    Version
+---------- -------
+pip        21.1.3
+setuptools 56.0.0
+
+
+#5 To install packages in virtual environment from requirements.txt
+
+pip install -r requirements.txt
+
+Example :
+
+(virtual_env) C:\Users\ShankarFiles\Automation\Python\BehaveAPIAutomation>pip install -r requirements.txt
+
+#6 Verify the packages installed in  newly created virtual environment  
+
+pip list
+
+
+
+Download and set allure coommn line tools -https://github.com/allure-framework/allure2/releases
 
 set path example : C:\Users\ShankarFiles\Automation\Libraries\allure-2.14.0\bin
 
@@ -36,5 +79,3 @@ allure serve C:\Users\ShankarFiles\Automation\Python\BehaveAPIAutomation\AllureR
 5. Request payload : csv/excel dynamically with positive negative combinations
 6. Response validations : filed by filed or json to json
 7. Schema validation :  filed by filed or json to json
-
-
